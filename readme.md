@@ -42,7 +42,7 @@ PromptSSH-Fake (Ollama 驱动的 终端模拟器)  有详细的日志系统，�
 **第一步** 安装依赖
 
 ```
-
+pip install paramiko requests
 ```
 
 **第二部** 配置端口和模型
@@ -72,4 +72,5 @@ PromptSSH-Fake (Ollama 驱动的 终端模拟器)  有详细的日志系统，�
 2026-02-04 11:20:10 | INFO | [a1b2c3d4] DISCONNECT (shell ended)
 
 ```
+
 
